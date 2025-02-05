@@ -1,0 +1,109 @@
+Package: linux-bootimage-4.19.322-sony-pdx206
+Source: linux-android-sony-pdx206
+Version: 0.0.0+git20241207001601.3374b2c.droidian
+Architecture: arm64
+Maintainer: Nick Charalampous <n.charalampous@protonmail.com>
+Installed-Size: 77809
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.19.322-sony-pdx206 (= 0.0.0+git20241207001601.3374b2c.droidian)
+Filename: packages/linux-bootimage-4.19.322-sony-pdx206_0.0.0+git20241207001601.3374b2c.droidian_arm64.deb
+Size: 75993440
+MD5sum: d4676c2320665a530908df89af9cdf44
+SHA1: 62f5ec8bf0d75297b903ae6273f35f94c85829bf
+SHA256: b27e17136cfe10e45bb17ea467df72c8cf91967bf0aace142d467ef24b95d5b1
+Section: kernel
+Priority: optional
+Description: Linux kernel for Sony Xperia 5 II - Android Boot Image
+ This package contains the Linux kernel for the Sony Xperia 5 II device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+
+Package: linux-bootimage-sony-pdx206
+Source: linux-android-sony-pdx206
+Version: 0.0.0+git20241207001601.3374b2c.droidian
+Architecture: arm64
+Maintainer: Nick Charalampous <n.charalampous@protonmail.com>
+Installed-Size: 194
+Depends: linux-bootimage-4.19.322-sony-pdx206 (= 0.0.0+git20241207001601.3374b2c.droidian)
+Filename: packages/linux-bootimage-sony-pdx206_0.0.0+git20241207001601.3374b2c.droidian_arm64.deb
+Size: 194332
+MD5sum: f90bf8068d2e16d8abe74c77347f9a4a
+SHA1: 402616f569a02248bde5136588e5e0174eb48095
+SHA256: b2aa8baefe5c2ace6835f74c955be0f658b4a8882af4fd7c377ccc14f872f06c
+Section: kernel
+Priority: optional
+Description: Linux kernel for Sony Xperia 5 II - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Sony Xperia 5 II.
+
+Package: linux-headers-4.19.322-sony-pdx206
+Source: linux-android-sony-pdx206
+Version: 0.0.0+git20241207001601.3374b2c.droidian
+Architecture: arm64
+Maintainer: Nick Charalampous <n.charalampous@protonmail.com>
+Installed-Size: 57116
+Depends: linux-image-4.19.322-sony-pdx206 (= 0.0.0+git20241207001601.3374b2c.droidian)
+Filename: packages/linux-headers-4.19.322-sony-pdx206_0.0.0+git20241207001601.3374b2c.droidian_arm64.deb
+Size: 9114588
+MD5sum: d41fc1be1caf7a0db35d847f281d815a
+SHA1: a88abb1e525b39efaa16d2c4a35db061ad4b2daf
+SHA256: 0e1b0d848f5ee61ad1e312cb62e02f8cf162072ea8cfec5532427e95c68e77e9
+Section: kernel
+Priority: optional
+Description: Linux kernel for Sony Xperia 5 II - Headers
+ This package contains the Linux kernel headers for the Sony Xperia 5 II device.
+
+Package: linux-headers-sony-pdx206
+Source: linux-android-sony-pdx206
+Version: 0.0.0+git20241207001601.3374b2c.droidian
+Architecture: arm64
+Maintainer: Nick Charalampous <n.charalampous@protonmail.com>
+Installed-Size: 194
+Depends: linux-headers-4.19.322-sony-pdx206 (= 0.0.0+git20241207001601.3374b2c.droidian)
+Filename: packages/linux-headers-sony-pdx206_0.0.0+git20241207001601.3374b2c.droidian_arm64.deb
+Size: 194308
+MD5sum: 055b0e7a66b8dc6e518a6beed60738a2
+SHA1: 604e145cac4245ff10bd231da6f65d31cd5d1e32
+SHA256: 13ae12401e5b64902de233d8cc0a78a38d7b859dd456aade9e48b1da84691ae8
+Section: kernel
+Priority: optional
+Description: Linux kernel for Sony Xperia 5 II - Headers (latest)
+ This package depends to the latest kernel headers available for the Sony Xperia 5 II.
+
+Package: linux-image-4.19.322-sony-pdx206
+Source: linux-android-sony-pdx206
+Version: 0.0.0+git20241207001601.3374b2c.droidian
+Architecture: arm64
+Maintainer: Nick Charalampous <n.charalampous@protonmail.com>
+Installed-Size: 30069
+Filename: packages/linux-image-4.19.322-sony-pdx206_0.0.0+git20241207001601.3374b2c.droidian_arm64.deb
+Size: 22730232
+MD5sum: 4cae774db2d2fc1091a8f00ee360c138
+SHA1: 7b0c449b2eed0a03902c4f7aaedabfcbd8db65fc
+SHA256: d16f771900f3da14b6ca8c04b1e119981478575d4b88c00c541f27240af44583
+Section: kernel
+Priority: optional
+Description: Linux kernel for Sony Xperia 5 II
+ This package contains the Linux kernel for the Sony Xperia 5 II device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.19.322-sony-pdx206 package for a bootimage suitable
+ for Android boot loaders.
+
+Package: linux-image-sony-pdx206
+Source: linux-android-sony-pdx206
+Version: 0.0.0+git20241207001601.3374b2c.droidian
+Architecture: arm64
+Maintainer: Nick Charalampous <n.charalampous@protonmail.com>
+Installed-Size: 194
+Depends: linux-image-4.19.322-sony-pdx206 (= 0.0.0+git20241207001601.3374b2c.droidian)
+Filename: packages/linux-image-sony-pdx206_0.0.0+git20241207001601.3374b2c.droidian_arm64.deb
+Size: 194300
+MD5sum: 09df1a133ccae03235f085a3ce0341f2
+SHA1: 38416084fb62e361f00eba94780e0851f8eecfaf
+SHA256: fa54526b76f4351a311cf9be6c178414f724a8decadd5625d8aad238bf034b94
+Section: kernel
+Priority: optional
+Description: Linux kernel for Sony Xperia 5 II (latest)
+ This package depends to the latest kernel image available for the Sony Xperia 5 II.
+

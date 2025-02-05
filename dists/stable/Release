@@ -1,0 +1,25 @@
+Origin: https://nchrl.github.io/apt-custom-debs
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Wed, 05 Feb 2025 12:58:55 +0000
+MD5Sum:
+ 521a00d65d3ef480b14fedc2d376413f              211 Release
+ 23494a867bf8c4da54e56314c0a979a5             4843 main/binary-arm64/Packages
+ 873620f21da1fa3f06b3e9e6dbf3641d             1248 main/binary-arm64/Packages.gz
+SHA1:
+ 255742d302a22ad1c85e871c8c31673d60a398ed              211 Release
+ e2f3d79bd7106c042c66eb6801366478665dfefc             4843 main/binary-arm64/Packages
+ d0e065639967c7a808adb141c4d8bc2295471d7b             1248 main/binary-arm64/Packages.gz
+SHA256:
+ d625c85433ca43b155661a1443824cc0178fd68b20cc9adfd9cfc75215b94489              211 Release
+ 628eb35e5d320129c8f87a1f3b011c6b5f979b0254c192ddad22a28bf9d6eb64             4843 main/binary-arm64/Packages
+ 5a2353120ca893df8e1ba27233bcc61ea2a66647550d6dd58ef49c2fb8ac6134             1248 main/binary-arm64/Packages.gz
+SHA512:
+ 42501f86970011940b04436bed24e303b71227918861379911450f06febd523a9784e4fc64df7e3f43869f30191f210bc42ed82d05ba0f92721f0dbfb73b6262              211 Release
+ 0d638618fc377fcdad6ad3f08014d8d26441c249a2222a42833154f42fdbb59a76a97b34dc28aed688e24e828dec7d206ebf2d56b654e0c9687d4fdfcb69beb8             4843 main/binary-arm64/Packages
+ abceaa5d651970bd9332eab27ce9ddd50a2c94a60c166e35ca91b1e3c1859f29b4b72a8f0522ce32f969bb4cdafb434d0388abcd45e88580a623beb1880b6a1f             1248 main/binary-arm64/Packages.gz
